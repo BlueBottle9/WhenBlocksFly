@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>bluescreen9.minecraft.bukkit</groupId>
+  <artifactId>WhenBlocksFly</artifactId>
+  <version>0.0.1</version>
+  <description>A bukkit plugin to make explosion more 'physical'</description>
+  
+    <!--To use Java17-->
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <java.version>17.0.1</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
+  <!--PaperMC-->
+ <repositories>
+	<repository>
+    	<id>papermc</id>
+    	<url>https://papermc.io/repo/repository/maven-public/</url>
+	</repository>
+ </repositories>
+ 
+ <dependencies>
+	<!--PaperAPI-->
+	<dependency>
+    	<groupId>io.papermc.paper</groupId>
+    	<artifactId>paper-api</artifactId>
+    	<version>1.18.2-R0.1-SNAPSHOT</version>
+    	<scope>provided</scope>
+	</dependency>
+ </dependencies>
+ 
+ <!--Building-->
+<build>  
+        <plugins>  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-shade-plugin</artifactId>  
+                <version>2.4.3</version>  
+                <executions>  
+                    <execution>  
+                        <phase>package</phase>  
+                        <goals>  
+                            <goal>shade</goal>  
+                        </goals>  
+                    </execution>  
+                </executions>  
+            </plugin>
+            
+            <plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-compiler-plugin</artifactId>
+    		<version>3.8.1</version>
+    		<configuration>
+        		<release>17</release>
+    		</configuration>
+		</plugin>  
+        </plugins>  
+    </build>
+
+  
+</project>
