@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>bluescreen9.minecraft.bukkit</groupId>
   <artifactId>WhenBlocksFly</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>A bukkit plugin to make explosion more 'physical'</description>
   
     <!--To use Java17-->
