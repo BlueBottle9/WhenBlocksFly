@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>bluescreen9.minecraft.bukkit</groupId>
+  <groupId>com.github.bluebottle9</groupId>
   <artifactId>WhenBlocksFly</artifactId>
   <version>0.0.2</version>
   <description>A bukkit plugin to make explosion more 'physical'</description>
@@ -21,6 +21,7 @@
     	<url>https://papermc.io/repo/repository/maven-public/</url>
 	</repository>
  </repositories>
+ 
  
  <dependencies>
 	<!--PaperAPI-->
@@ -59,6 +60,4 @@
 		</plugin>  
         </plugins>  
     </build>
-
-  
 </project>
