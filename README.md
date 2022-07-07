@@ -14,7 +14,7 @@ To use this(食用方法):
  重载你的服务器。
  
  
- config.yml
+ config.yml (version 0.0.3+ - 仅0.0.3以上版本)
  
  ```
  impervious-blocks: #Which blocks will not be blew up. - 哪些方块不会被炸飞
