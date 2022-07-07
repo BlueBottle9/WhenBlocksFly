@@ -1,0 +1,5 @@
+name: WhenBlocksFly
+version: 0.0.3
+main: bluescreen9.minecraft.bukkit.whenblocksfly.Main
+description: 'A bukkit plugin to make explosion more physical'
+api-version: 1.19

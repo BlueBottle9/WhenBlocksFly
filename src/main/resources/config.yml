@@ -1,0 +1,17 @@
+impervious-blocks:
+  - 'chest'
+  - 'bedrock'
+  - 'command_block'
+  - 'tnt'
+  - 'lava'
+  - 'water'
+  - 'structure_block'
+  - 'barrier'
+  - 'structure_void'
+  - 'nether_portal'
+  - 'end_portal'
+  - 'end_portal_frame'
+  - 'end_gateway'
+  - 'obsidian'
+  
+explosion-power-off: 3
